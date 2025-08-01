@@ -1,0 +1,20 @@
+/* RESET DO CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,p {
+    text-align: center;
+}
+
+header {
+    background-color: rgb(223, 70, 151);
+    color: rgb(158, 14, 57);
+    padding: 73px;
+}
+
