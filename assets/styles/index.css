@@ -22,6 +22,10 @@ header {
     text-align: center;
 }
 
+header p {
+    font-family: Delius;
+}
+
 main {
     background-color:rgb(240, 180, 212);
     flex: 1;
@@ -36,7 +40,7 @@ main {
     padding: 20px;
     border-radius: 12px;
     color:  rgb(158, 14, 57);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-family: Delius;
 }
 
@@ -61,7 +65,7 @@ main {
     padding: 20px;
     border-radius: 12px;
     color:  rgb(158, 14, 57);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 
@@ -133,4 +137,17 @@ li:hover {
     background-color:rgb(236, 42, 142);
     color:rgb(245, 183, 217);
     transform: translateY(-2px);
+}
+
+footer {
+    background-color:rgb(204, 125, 165);
+    color: rgb(248, 201, 215);
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+    font-family: Delius;
 }
